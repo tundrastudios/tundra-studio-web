@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FAQ · Tundra Studio</title>
+<meta name="description" content="Answers to the most common questions about Tundra Studio.">
+<link rel="alternate" hreflang="es" href="../preguntas.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Michroma&family=Exo+2:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="Tundra Studio, home"><svg width="42" height="30" viewBox="0 0 44 32" aria-hidden="true"><path d="M4 27 L17 9 L23 17 L30 6 L41 27" fill="none" stroke="#9B5CFF" stroke-width="5" transform="translate(1.5 2.5)"/><path d="M4 27 L17 9 L23 17 L30 6 L41 27" fill="none" stroke="#F4F2F8" stroke-width="5"/></svg><span class="logo-text"><b>TUNDRA</b><small>STUDIO</small></span></a>
+    <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="nav-links" id="menu" aria-label="Main">
+      <a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="packages.html">Packages</a><a href="faq.html" aria-current="page">FAQ</a>
+      <a class="lang" href="../preguntas.html" hreflang="es" lang="es" aria-label="Ver en español">ES</a>
+      <a class="btn btn-primary" href="contact.html">Free trial</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="page-hero" style="border-top:0">
+  <div class="wrap">
+    <p class="eyebrow">FAQ</p>
+    <h1>What people ask us most</h1>
+    <p class="lead">If your question isn't here, message us on X or by email.</p>
+  </div>
+</section>
+<section><div class="wrap"><div class="faq"><details><summary>How do I send you my footage?</summary><p>Through a form where you choose the type of work and add the link to your raw footage (Google Drive, WeTransfer or similar), your extra assets and your instructions.</p></details><details><summary>How long does delivery take?</summary><p>As a guide: thumbnails in 1 day, shorts in 1 to 2 days and long videos in 3 to 5 days. It depends on the length and what you ask for.</p></details><details><summary>What if I don't like how it turned out?</summary><p>Every order includes 2 rounds of revisions so it ends up the way you want.</p></details><details><summary>Can I cancel anytime?</summary><p>Yes. Packages are month to month, with no long contracts.</p></details><details><summary>What if I don't use my whole package?</summary><p>The work in your package is for the current month. If you need more, you can order single pieces.</p></details><details><summary>Do you only edit gaming content?</summary><p>We specialize in gaming and streaming, but if you make other kinds of content, message us and let's talk.</p></details></div></div></section>
+<section class="trial">
+  <div class="wrap">
+    <p class="eyebrow">No strings attached</p>
+    <h2>Your first short or thumbnail, free</h2>
+    <p>Send us your raw footage and we'll edit it at no cost so you can see how we work. If you like it, let's talk.</p>
+    <a class="btn btn-primary" href="contact.html">Get my free trial</a>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <a class="logo" href="index.html" aria-label="Tundra Studio, home"><svg width="42" height="30" viewBox="0 0 44 32" aria-hidden="true"><path d="M4 27 L17 9 L23 17 L30 6 L41 27" fill="none" stroke="#9B5CFF" stroke-width="5" transform="translate(1.5 2.5)"/><path d="M4 27 L17 9 L23 17 L30 6 L41 27" fill="none" stroke="#F4F2F8" stroke-width="5"/></svg><span class="logo-text"><b>TUNDRA</b><small>STUDIO</small></span></a>
+      <nav aria-label="Footer"><a href="index.html">Home</a><a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="packages.html">Packages</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></nav>
+    </div>
+    <div class="foot-bottom">© 2026 Tundra Studio · Create • Inspire • Connect</div>
+  </div>
+</footer>
+<script>
+(function(){
+  var btn=document.querySelector('.menu-btn'), menu=document.getElementById('menu');
+  function close(){menu.classList.remove('open');btn.setAttribute('aria-expanded','false');btn.setAttribute('aria-label','Open menu');}
+  btn.addEventListener('click',function(){
+    var open=menu.classList.toggle('open');
+    btn.setAttribute('aria-expanded',open?'true':'false');
+    btn.setAttribute('aria-label',open?'Close menu':'Open menu');
+  });
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+})();
+</script>
+</body>
+</html>

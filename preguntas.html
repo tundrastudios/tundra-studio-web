@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Preguntas frecuentes · Tundra Studio</title>
+<meta name="description" content="Respuestas a las preguntas más comunes sobre Tundra Studio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Michroma&family=Exo+2:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="Tundra Studio, inicio"><svg width="42" height="30" viewBox="0 0 44 32" aria-hidden="true"><path d="M4 27 L17 9 L23 17 L30 6 L41 27" fill="none" stroke="#9B5CFF" stroke-width="5" transform="translate(1.5 2.5)"/><path d="M4 27 L17 9 L23 17 L30 6 L41 27" fill="none" stroke="#F4F2F8" stroke-width="5"/></svg><span class="logo-text"><b>TUNDRA</b><small>STUDIO</small></span></a>
+    <button class="menu-btn" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="nav-links" id="menu" aria-label="Principal">
+      <a href="servicios.html">Servicios</a><a href="portafolio.html">Portafolio</a><a href="paquetes.html">Paquetes</a><a href="preguntas.html" aria-current="page">Preguntas</a>
+      <a class="lang" href="en/faq.html" hreflang="en" lang="en" aria-label="View in English">EN</a>
+      <a class="btn btn-primary" href="contacto.html">Prueba gratis</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="page-hero" style="border-top:0">
+  <div class="wrap">
+    <p class="eyebrow">Preguntas frecuentes</p>
+    <h1>Lo que más nos preguntan</h1>
+    <p class="lead">Si tu duda no está aquí, escríbenos por X o por correo.</p>
+  </div>
+</section>
+<section><div class="wrap"><div class="faq"><details><summary>¿Cómo les mando mi material?</summary><p>Con un formulario donde pones el tipo de trabajo, el link a tus crudos (Google Drive, WeTransfer o similar), tu material extra y tus instrucciones.</p></details><details><summary>¿Cuánto tardan en entregar?</summary><p>Como referencia: miniaturas en 1 día, shorts en 1 a 2 días y videos largos en 3 a 5 días. Depende de la duración y de lo que pidas.</p></details><details><summary>¿Y si no me gusta cómo quedó?</summary><p>Cada pedido incluye 2 rondas de correcciones para dejarlo como lo quieres.</p></details><details><summary>¿Puedo cancelar cuando quiera?</summary><p>Sí. Los paquetes son mes a mes, sin contratos largos.</p></details><details><summary>¿Qué pasa si no uso todo mi paquete?</summary><p>Los trabajos de tu paquete son para el mes en curso. Si necesitas más, puedes pedir piezas sueltas.</p></details><details><summary>¿Solo editan gaming?</summary><p>Nos especializamos en gaming y streaming, pero si tienes otro tipo de contenido escríbenos y lo platicamos.</p></details></div></div></section>
+<section class="trial">
+  <div class="wrap">
+    <p class="eyebrow">Sin compromiso</p>
+    <h2>Tu primer short o miniatura, gratis</h2>
+    <p>Mándanos un crudo y te lo editamos sin costo para que veas cómo trabajamos. Si te gusta, platicamos.</p>
+    <a class="btn btn-primary" href="contacto.html">Quiero mi prueba gratis</a>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <a class="logo" href="index.html" aria-label="Tundra Studio, inicio"><svg width="42" height="30" viewBox="0 0 44 32" aria-hidden="true"><path d="M4 27 L17 9 L23 17 L30 6 L41 27" fill="none" stroke="#9B5CFF" stroke-width="5" transform="translate(1.5 2.5)"/><path d="M4 27 L17 9 L23 17 L30 6 L41 27" fill="none" stroke="#F4F2F8" stroke-width="5"/></svg><span class="logo-text"><b>TUNDRA</b><small>STUDIO</small></span></a>
+      <nav aria-label="Pie de página"><a href="index.html">Inicio</a><a href="servicios.html">Servicios</a><a href="portafolio.html">Portafolio</a><a href="paquetes.html">Paquetes</a><a href="preguntas.html">Preguntas</a><a href="contacto.html">Contacto</a></nav>
+    </div>
+    <div class="foot-bottom">© 2026 Tundra Studio · Create • Inspire • Connect</div>
+  </div>
+</footer>
+<script>
+(function(){
+  var btn=document.querySelector('.menu-btn'), menu=document.getElementById('menu');
+  function close(){menu.classList.remove('open');btn.setAttribute('aria-expanded','false');btn.setAttribute('aria-label','Abrir menú');}
+  btn.addEventListener('click',function(){
+    var open=menu.classList.toggle('open');
+    btn.setAttribute('aria-expanded',open?'true':'false');
+    btn.setAttribute('aria-label',open?'Cerrar menú':'Abrir menú');
+  });
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+})();
+</script>
+</body>
+</html>
