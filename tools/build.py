@@ -4,7 +4,7 @@ import pathlib
 OUT = pathlib.Path(__file__).parent.parent
 X_USER = "[USUARIO_DE_TUNDRA]"            # <- cambia por tu usuario de X, sin @
 X_ID = "1475353969329385472"
-X_URL = "https://x.com/messages/compose?recipient_id=" + X_ID + "&text=Hola%20Tundra%20Studio%2C%20me%20interesa%20su%20servicio%20de%20edici%C3%B3n%20y%20quiero%20mi%20prueba%20gratis."
+X_URL = "https://x.com/messages/compose?recipient_id=" + X_ID + "&text=Hola%20Tundra%20Studio%2C%20me%20interesa%20su%20servicio%20de%20edici%C3%B3n%20y%20quiero%20mi%20prueba%20gratis%20%281%20short%20o%201%20miniatura%29."
 EMAIL = "tundrastudio3@gmail.com"
 
 TO_EN = {"index.html": "index.html", "servicios.html": "services.html", "portafolio.html": "portfolio.html",
@@ -120,7 +120,8 @@ TRIAL = """<section class="trial">
   <div class="wrap">
     <p class="eyebrow">Sin compromiso</p>
     <h2>Tu primer short o miniatura, gratis</h2>
-    <p>Mándanos un crudo y te lo editamos sin costo para que veas cómo trabajamos. Si te gusta, platicamos.</p>
+    <p>Mándanos un crudo y te editamos <strong>1 short o 1 miniatura</strong> sin costo para que veas cómo trabajamos. Si te gusta, platicamos.</p>
+    <p class="trial-note">La prueba gratis no incluye videos largos. Una prueba por creador.</p>
     <a class="btn btn-primary" href="contacto.html">Quiero mi prueba gratis</a>
   </div>
 </section>
@@ -294,6 +295,7 @@ page("paquetes.html", "Paquetes · Tundra Studio",
 FAQ = [
     ("¿Cómo les mando mi material?", "Con un formulario donde pones el tipo de trabajo, el link a tus crudos (Google Drive, WeTransfer o similar), tu material extra y tus instrucciones."),
     ("¿Cuánto tardan en entregar?", "Como referencia: miniaturas en 1 día, shorts en 1 a 2 días y videos largos en 3 a 5 días. Depende de la duración y de lo que pidas."),
+    ("¿Qué incluye la prueba gratis?", "Te editamos 1 short o 1 miniatura sin costo, tú eliges cuál. No incluye videos largos y es una prueba por creador."),
     ("¿Y si no me gusta cómo quedó?", "Cada pedido incluye 2 rondas de correcciones para dejarlo como lo quieres."),
     ("¿Puedo cancelar cuando quiera?", "Sí. Los paquetes son mes a mes, sin contratos largos."),
     ("¿Qué pasa si no uso todo mi paquete?", "Los trabajos de tu paquete son para el mes en curso. Si necesitas más, puedes pedir piezas sueltas."),

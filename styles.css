@@ -213,3 +213,6 @@ h1,h2{font-weight:700;line-height:1.12}
 .thumb .dur{position:absolute;right:10px;bottom:10px;z-index:1;background:rgba(0,0,0,.78);color:#fff;font-size:12px;font-weight:600;padding:2px 7px;border-radius:6px}
 .work-body h3{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 @media (prefers-reduced-motion:reduce){.thumb.has-img img{transition:none}}
+
+.trial-note{margin:-14px auto 26px !important;font-size:14px !important;color:var(--muted) !important}
+.trial strong{color:var(--text)}

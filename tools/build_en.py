@@ -5,7 +5,7 @@ OUT = pathlib.Path(__file__).parent.parent / "en"
 OUT.mkdir(exist_ok=True)
 X_USER = "[TUNDRA_X_HANDLE]"            # <- X handle without @
 X_ID = "1475353969329385472"
-X_URL = "https://x.com/messages/compose?recipient_id=" + X_ID + "&text=Hi%20Tundra%20Studio%2C%20I%27m%20interested%20in%20your%20editing%20service%20and%20I%27d%20like%20my%20free%20trial."
+X_URL = "https://x.com/messages/compose?recipient_id=" + X_ID + "&text=Hi%20Tundra%20Studio%2C%20I%27m%20interested%20in%20your%20editing%20service%20and%20I%27d%20like%20my%20free%20trial%20%281%20short%20or%201%20thumbnail%29."
 EMAIL = "tundrastudio3@gmail.com"
 
 PAGES = [
@@ -122,7 +122,8 @@ TRIAL = """<section class="trial">
   <div class="wrap">
     <p class="eyebrow">No strings attached</p>
     <h2>Your first short or thumbnail, free</h2>
-    <p>Send us your raw footage and we'll edit it at no cost so you can see how we work. If you like it, let's talk.</p>
+    <p>Send us your raw footage and we'll edit <strong>1 short or 1 thumbnail</strong> at no cost so you can see how we work. If you like it, let's talk.</p>
+    <p class="trial-note">The free trial doesn't include long videos. One trial per creator.</p>
     <a class="btn btn-primary" href="contact.html">Get my free trial</a>
   </div>
 </section>
@@ -296,6 +297,7 @@ page("packages.html", "Packages · Tundra Studio",
 FAQ = [
     ("How do I send you my footage?", "Through a form where you choose the type of work and add the link to your raw footage (Google Drive, WeTransfer or similar), your extra assets and your instructions."),
     ("How long does delivery take?", "As a guide: thumbnails in 1 day, shorts in 1 to 2 days and long videos in 3 to 5 days. It depends on the length and what you ask for."),
+    ("What does the free trial include?", "We edit 1 short or 1 thumbnail at no cost, your choice. It doesn't include long videos, and it's one trial per creator."),
     ("What if I don't like how it turned out?", "Every order includes 2 rounds of revisions so it ends up the way you want."),
     ("Can I cancel anytime?", "Yes. Packages are month to month, with no long contracts."),
     ("What if I don't use my whole package?", "The work in your package is for the current month. If you need more, you can order single pieces."),
