@@ -131,6 +131,7 @@ TRIAL = """<section class="trial">
 
 # Portfolio: replace each [..] with real work and add the link to the video.
 WORKS = [
+    ("long", "Long video", "VACIANDO EL LAGO MÁS GRANDE DE ROBLOX", "Tio Strak · Roblox", "https://www.youtube.com/watch?v=9NWn6yytm10", "9NWn6yytm10", "10:28"),
     ("long", "Long video", "ME LLEVARON A LOS BACKROOMS… | PHOTOMALY", "STRAKGG · Photomaly", "https://www.youtube.com/watch?v=18Lm7Ccf6cQ", "18Lm7Ccf6cQ", "12:05"),
     ("short", "Short", "Odio atender a estos clientes 😤", "STRAKGG · Retro Rewind", "https://www.youtube.com/shorts/kuqUZBEv6M8", "kuqUZBEv6M8", "0:28"),
     ("long", "Long video", "Este juego de Roblox NO es tan fácil como parece… (Bite by Night)", "Central Crew Games · Roblox", "https://www.youtube.com/watch?v=r1h4St_ZX4w", "r1h4St_ZX4w", "12:54"),
